@@ -1,7 +1,7 @@
 ~*
 #*
 *.beam
-*/ebin/*
+ebin
 erl_crash.dump
 deps/*
 .eunit/*
