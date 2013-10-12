@@ -4,10 +4,11 @@
   {description, "PostgreSQL Connection Pool"},
   {vsn, "0.1"},
   {registered, []},
+  {modules, []},
   {applications, [
                   kernel,
                   stdlib,
-		  epgsql
+                  epgsql
                  ]},
   {mod, { epgsql_pool_app, []}},
   {env, [{pools, []}]}
